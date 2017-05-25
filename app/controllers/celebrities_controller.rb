@@ -1,16 +1,16 @@
 class CelebritiesController < ApplicationController
 # 2페이지
   def show
-    celebrity = Celebrity.all
+    celebrities = Celebrity.all
 
-    render json: celebrity
+    render json: celebrities
   end
 
   def result_save
     user = User.find(params(:user_id))
 
     celebrity = Celebrity.find(params(:celebrity_id))
-    user.celebrity << celebrity
+    user.celebrities << celebrity
 
     render json: user
   end
@@ -18,7 +18,7 @@ class CelebritiesController < ApplicationController
 # 3페이지
   def ideal_show
     a = Hash.new
-    c = User.find(params[:user_id]).celebrity
+    c = User.find(params[:user_id]).celebrities
     c.each do |c|
       celeb_image = { "#{c.name}" => c.celebrity_images }
 

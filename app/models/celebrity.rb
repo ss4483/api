@@ -3,6 +3,6 @@ class Celebrity < ApplicationRecord
   has_many :celebrity_images
 
   # M:N - users : celebrity
-  has_many :user_celebrity
+  has_many :user_celebrities
   has_many :user, through: :user_celebrity
 end

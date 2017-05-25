@@ -7,7 +7,6 @@ class CreateCelebrityImages < ActiveRecord::Migration[5.0]
       t.integer :celebrity_id
 
 
-      t.timestamps
     end
   end
 end
