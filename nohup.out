@@ -1,0 +1,271 @@
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.8.2 (ruby 2.4.0-p0), codename: Sassy Salamander
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 10.0.2.2 at 2017-05-25 11:41:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/vagrant/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (7.8ms)
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+A server is already running. Check /vagrant/api1/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Exiting
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.8.2 (ruby 2.4.0-p0), codename: Sassy Salamander
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started POST "/celebrities/ideal_show" for 127.0.0.1 at 2017-05-25 11:51:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [POST] "/celebrities/ideal_show"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.8.2 (ruby 2.4.0-p0), codename: Sassy Salamander
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started POST "/celebrities/ideal_show" for 127.0.0.1 at 2017-05-25 11:52:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [POST] "/celebrities/ideal_show"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+=> Booting Puma
+=> Rails 5.0.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.8.2 (ruby 2.4.0-p0), codename: Sassy Salamander
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started POST "/celebrities/ideal_show" for 127.0.0.1 at 2017-05-25 11:53:28 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [POST] "/celebrities/ideal_show"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/celebrities/ideal_show" for 127.0.0.1 at 2017-05-25 11:54:22 +0000
+Processing by CelebritiesController#ideal_show as */*
+Started GET "/celebrities/ideal_show" for 10.0.2.2 at 2017-05-25 11:54:32 +0000
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 62ms (ActiveRecord: 9.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
+  
+app/controllers/celebrities_controller.rb:25:in `ideal_show'
+Processing by CelebritiesController#ideal_show as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 34ms (ActiveRecord: 9.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
+  
+app/controllers/celebrities_controller.rb:25:in `ideal_show'
+Started GET "/celebrities/ideal_show&user_id=1" for 10.0.2.2 at 2017-05-25 11:54:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/celebrities/ideal_show&user_id=1"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:35 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (1.6ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 7.9ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f6418571fb0>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:42 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (1.2ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.7ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f643c15b1f0>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:43 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (3.3ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 2.9ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f64186c0ad8>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:43 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (3.1ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 5.0ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f64183352d8>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:44 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (2.8ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 5.0ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f64200d4478>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
+Started GET "/celebrities/ideal_show?user_id=1" for 10.0.2.2 at 2017-05-25 11:55:44 +0000
+Processing by CelebritiesController#ideal_show as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCelebrity Load (5.1ms)[0m  [1m[34mSELECT "celebrities".* FROM "celebrities" INNER JOIN "user_celebrities" ON "celebrities"."id" = "user_celebrities"."celebrity_id" WHERE "user_celebrities"."user_id" = ?[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 4.8ms)
+
+
+  
+NoMethodError (undefined method `celebrity_images' for #<Celebrity::ActiveRecord_AssociationRelation:0x007f6418515b20>):
+  
+app/controllers/celebrities_controller.rb:26:in `ideal_show'
