@@ -20,9 +20,10 @@ ActiveRecord::Schema.define(version: 20170525104649) do
 
   create_table "celebrity_images", force: :cascade do |t|
     t.string   "image_url"
+    t.integer  "ranking",      default: 0
     t.integer  "celebrity_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "like_images", force: :cascade do |t|

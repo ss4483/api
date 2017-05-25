@@ -9,9 +9,9 @@
 user_1 = User.create
 user_2 = User.create
 
-celeb_1 = Celebrity.create
-celeb_2 = Celebrity.create
-celeb_3 = Celebrity.create
+celeb_1 = Celebrity.create(name: "하니")
+celeb_2 = Celebrity.create(name: "아이유")
+celeb_3 = Celebrity.create(name: "가수")
 
 user_1.celebrity << celeb_1
 user_1.celebrity << celeb_2
